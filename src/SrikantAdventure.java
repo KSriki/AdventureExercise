@@ -67,7 +67,7 @@ public class SrikantAdventure {
 					System.out.println("You jump up and down from the bed trying to reach the key. \nSuddenly the bed breaks and you fall through the bed, through the secret trap door \nunder the bed to your fiery and pointy doom.");
 				}
 				else if (choice == 2){
-					System.out.println("Under the bed, you find a rock. \nYou throw the rock at the key, causing the key to fall. \nYou use the key to make your escape out of the room, fearful yet excited about the unknown surroundings.");
+					System.out.println("Under the bed, you find a rock. \nYou throw the rock at the key, causing the key to fall. \nYou use the key to make your escape out of the room, fearful yet excited \nabout the unknown surroundings.");
 				
 				}
 				else{
@@ -75,14 +75,14 @@ public class SrikantAdventure {
 				}
 			}
 			else if (choice == 2){
-				System.out.println("Choice3: 1) , 2),");
+				System.out.println("The sink does not have running water. \nHowever you notice something shiny inside the drain of the sink. \n1) Stick your hand into the sink drain. \n2) Throw the drain cover at the hanging shiny object.");
 				choice = scan.nextInt();
 				
 				if(choice == 1){
-					
+					System.out.println("You stick your hand down the drain, only to hear your own muffled scream \nas a monster drags your ENTIRE body through the tiny drain pipe, \nkilling you instantly(and painfully). You were peeled like an onion.");
 				}
 				else if (choice == 2){
-					
+					System.out.println("Miraculously, the thrown drain cover flys in the air like a ninja star and \ncuts the string holding the object in the air. The fallen object is the key \nto the room! You use the key to make your escape out of the room, thanking your \nGrandpa Jack for being a baseball player.");
 				}
 				else{
 					System.out.println("Wrong number try again!");
